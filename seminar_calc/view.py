@@ -1,7 +1,7 @@
 import datetime
 
 def get_value():
-    return int(input('Введите значение = '))
+    return float(input('Введите значение = '))
 
 # def get_mode():
 #     return int(input('Введите ре = '))

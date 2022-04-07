@@ -1,4 +1,4 @@
-import datetime
+
 
 def get_value():
     return float(input('Введите значение = '))

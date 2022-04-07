@@ -22,3 +22,13 @@ def comp_sub():
 
 def comp_dif():
     return complex(x) / complex(y)
+
+def do_it(char):
+    if char == '+':
+        return complex(x) + complex(y)
+    elif char == '-':
+        return complex(x) - complex(y)
+    elif char == '*':
+        return complex(x) * complex(y)
+    elif char == '/':
+        return complex(x) / complex(y)
